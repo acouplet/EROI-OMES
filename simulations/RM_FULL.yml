@@ -3,7 +3,7 @@ name: "RM_FULL"
 dt: 1  # Time step [hours]
 use_CPLEX: 1 # Use CPLEX Solver if True, CBC Solver if False
 optiTD: 1  #Uses Typical days if True, real values if False
-nrTD: 24 #Number of typical days used for approximating one year
+nrTD: 36 #Number of typical days used for approximating one year
 loadTD: 0
 replicate: 10000
 
