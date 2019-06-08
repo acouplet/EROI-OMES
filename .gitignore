@@ -110,9 +110,8 @@ venv.bak/
 .mps
 
 results/*
+!results/.placeholder
 Input_europe/*
 Input_europe.zip
 .DS_Store
 *.lp
-CASERESULTS/*
-!results/.placeholder

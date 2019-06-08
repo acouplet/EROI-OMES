@@ -455,14 +455,14 @@ class Case:
     def save_json(self):
         a = json.dumps(self, default=serialize)
 
-        f = open('CASERESULTS/' + str(self.optiTD) + 'TD_' + str(self.dt) + 'dt_REshare_' + str(self.policies[0]) + '.json','w')
+        f = open('results/' + str(self.optiTD) + 'TD_' + str(self.dt) + 'dt_REshare_' + str(self.policies[0]) + '.json','w')
         f.write(a)
         f.close()
 
         b = json.dumps(self.share, default=serialize)
         if self.optiTD:
-            g = open('CASERESULTS/' + str(self.nrTD) + 'TD_' + str(self.dt) + 'dt_' +  'REshare_' + str(self.policies[0]) + '_Share' + '.json','w')
+            g = open('results/' + str(self.nrTD) + 'TD_' + str(self.dt) + 'dt_' +  'REshare_' + str(self.policies[0]) + '_Share' + '.json','w')
         else:
-            g = open('CASERESULTS/' + str(self.optiTD) + 'TD_' + str(self.dt) + 'dt_' +  'REshare_' + str(self.policies[0]) + '_Share' + '.json','w')
+            g = open('results/' + str(self.optiTD) + 'TD_' + str(self.dt) + 'dt_' +  'REshare_' + str(self.policies[0]) + '_Share' + '.json','w')
         g.write(b)
         g.close()
