@@ -111,6 +111,8 @@ venv.bak/
 
 results/*
 !results/.placeholder
+typical_days/*
+!typical_days/.placeholder
 Input_europe/*
 Input_europe.zip
 .DS_Store
