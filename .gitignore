@@ -115,3 +115,4 @@ Input_europe.zip
 .DS_Store
 *.lp
 CASERESULTS/*
+!results/.placeholder
