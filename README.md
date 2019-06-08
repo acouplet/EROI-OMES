@@ -1,5 +1,6 @@
 # EROI Optimisation Model for Energy Systems
 This repository contains the `python` code for optimising the production capacity mix of Western Europe by minimising the net global **EROI**. This code is adapted from **Sylvain Ramelot** and **Thibault Martinelle**'s master thesis and initially inspired from the work of **Gauthier Limpens** in the article "*Electricity storage needs for the energy transition : an EROI based analysis illustrated for the case of Belgium*"
+
 Contributors:
 - Inspiration : **Gauthier Limpens** ([article](https://doi.org/10.1016/j.energy.2018.03.180))
 - For the V1.0 : **Sylvain Ramelot** and **Thibault Martinelle** ([master thesis](http://hdl.handle.net/2078.1/thesis:14328))
